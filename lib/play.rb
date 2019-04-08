@@ -39,7 +39,7 @@ end
   def play(board)
     tour = 0
   until tour == 9
-    turn(board[tour])
+    turn(board)
     tour += 1
   end
   end
